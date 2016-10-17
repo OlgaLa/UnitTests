@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Items and cart test suite">
+    <test name="items and cart">
+        <groups>
+            <run>
+                <include name="item"/>
+                <include name="cart"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="RealItemTest"/>
+            <class name="VirtualItemTest"/>
+            <class name="CartTest"/>
+        </classes>
+    </test>
+</suite>
